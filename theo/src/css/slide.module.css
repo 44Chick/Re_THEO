@@ -1,0 +1,74 @@
+.Slide_Con {
+    /* display: block; */
+    text-align: center;
+    z-index: 3;
+    max-height: 100px;
+}
+
+.slide_track {
+    display: flex;
+}
+
+.slick-slide img {
+    transform: scale(0.8);
+}
+
+.slider .slick-center img {
+    transform: scale(1.0)
+}
+
+.slick-arrow:before {
+    content: "" !important;
+    width: 100% !important;
+    height: 100% !important;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-repeat: no-repeat;
+}
+
+
+
+.slick-arrow {
+    z-index: 2 !important;
+    width: 23px !important;
+    height: 43px !important;
+}
+
+
+.slick-next:before {
+    background: url('../../public/img/arrow_right.png') !important;
+    background-size: contain !important;
+
+}
+
+.slick-prev:before {
+    background: url('../../public/img/arrow_left.png') !important;
+    background-size: contain !important;
+
+}
+
+/* 다혜 수정 */
+.artworkNameScroll {
+    margin-top: -20px;
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.16em;
+    color: #000000;
+}
+
+.artistNameScroll {
+    margin-top: -13px;
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.16em;
+    color: #000000;
+}
